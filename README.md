@@ -17,7 +17,7 @@ git clone [リポジトリのurl] ./
 ゲストOSにログインして実行します。
 
 ```
-cd /vagrant/www/dev.lesson-codecamp.jp/webroot/schema
+cd /vagrant/www/dev.lesson-codecamp.jp/lib/schema
 mysql -u codecamp_user -p codecamp_db < schema.sql
 ```
 
