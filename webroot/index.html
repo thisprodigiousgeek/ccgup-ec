@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>はじめに</title>
+<link href="./assets/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+	<nav
+		class="navbar navbar-expand-sm navbar-light fixed-top navbar-inverse">
+		<a href="./00-index.html"> <img class="logo" src="./img/logo.png"
+			alt="CodeSHOP"></a>
+	</nav>
+	<div class="container px-md-5">
+		<div class="row">
+			<div class="col-12">
+				<h1>課題デモ</h1>
+				<p class="lead">CCGバージョンアップの実装で利用するECサイトのデモ画面です。</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<h2>画面</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="card col-12 col-md-3 shadow-sm offset-md-2">
+				<h3>購入者</h3>
+				<a href="./top.php"><img
+					class="item-img w-100 img-responsive img-fluid"
+					src="./img/customer.png"></a>
+				<div class="card-body">
+					<div class="row item-info">
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-2">
+			</div>
+			<div class="card col-12 col-md-3 shadow-sm">
+				<h3>販売者</h3>
+				<a href="./login.php"><img
+					class="item-img w-100 img-responsive img-fluid"
+					src="./img/admin.png"></a>
+				<div class="card-body">
+					<div class="row item-info">
+						<p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<h2>アカウント</h2>
+				<p class="lead">
+					初期で設定されているアカウント情報は下記の通りです。
+				</p>
+			</div>
+			<table class="table table-striped w-75 mx-auto">
+				<thead>
+					<tr>
+						<th>Login ID</th>
+						<th>Password</th>
+						<th>管理者権限</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td>admin</td><td>admin</td><td>○</td></tr>
+					<tr><td>user1</td><td>user1</td><td>×</td></tr>
+					<tr><td>user2</td><td>user2</td><td>×</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!-- /.container -->
+	<script src="./assets/js/jquery/1.12.4/jquery.min.js"></script>
+	<script src="./assets/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
