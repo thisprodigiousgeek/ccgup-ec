@@ -32,6 +32,22 @@ function db_select(PDO $db, $sql) {
 }
 
 /**
+ *
+ * @param PDO $db
+ * @param string $sql
+ * @return array
+ */
+function db_select_revised(PDO $db, $sql, $values) {
+	$stmt = $db->prepare($sql);
+	$result = $stmt->execute($values);
+	if ($result->rowCount() === 0) {
+		return array();
+	}
+	$rows = $result->fetchAll(PDO::FETCH_ASSOC);
+	return $rows;
+}
+
+/**
  * @param PDO $db
  * @param string $sql
  * @return NULL|mixed
