@@ -1,4 +1,9 @@
 <?php
+/**
+ * @license CC BY-NC-SA 4.0
+ * @license https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+ * @copyright CodeCamp https://codecamp.jp
+ */
 
 // MySQL接続情報
 define('DB_USER', 'codecamp');      // MySQLのユーザ名

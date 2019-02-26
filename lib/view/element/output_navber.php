@@ -1,3 +1,10 @@
+<?php
+/**
+ * @license CC BY-NC-SA 4.0
+ * @license https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+ * @copyright CodeCamp https://codecamp.jp
+ */
+?>
 	<nav
 		class="navbar navbar-expand-sm navbar-light fixed-top navbar-inverse">
 		<a href="./index.html"> <img class="logo" src="./img/logo.png"

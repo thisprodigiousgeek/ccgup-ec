@@ -1,3 +1,9 @@
+/**
+ * @license CC BY-NC-SA 4.0
+ * @license https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+ * @copyright CodeCamp https://codecamp.jp
+ */
+
 /* デモサイト構築用
 -- このコメント内は無視してください
 DROP DATABASE IF EXISTS codecamp_ec;

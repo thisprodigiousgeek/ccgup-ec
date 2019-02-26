@@ -1,6 +1,10 @@
 <?php
+/**
+ * @license CC BY-NC-SA 4.0
+ * @license https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+ * @copyright CodeCamp https://codecamp.jp
+ */
 {
-
 	// CSRF対策にはsessionを利用します
 	session_start();
 	make_token();
