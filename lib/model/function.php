@@ -35,6 +35,7 @@ function db_select(PDO $db, $sql) {
  *
  * @param PDO $db
  * @param string $sql
+ * @param array $values
  * @return array
  */
 function db_select_revised(PDO $db, $sql, $values) {
