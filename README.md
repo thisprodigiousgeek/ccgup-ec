@@ -45,3 +45,7 @@ $workspace/ccg/syncs/www/dev.lesson-codecamp.jp/config/const.php
 
 `環境準備方法` が終わりましたら、下記にアクセスして接続確認をしましょう。  
 [dev.lesson-codecamp.jp](http://dev.lesson-codecamp.jp)
+
+
+issue/a で追記
+
