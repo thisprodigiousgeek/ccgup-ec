@@ -48,4 +48,5 @@ $workspace/ccg/syncs/www/dev.lesson-codecamp.jp/config/const.php
 
 
 issue/a で追記
+issue/b で追記
 
