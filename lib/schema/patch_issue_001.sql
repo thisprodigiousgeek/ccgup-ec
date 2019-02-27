@@ -5,10 +5,10 @@
  */
 
 set @user='admin';
-update users set password = sha1(@uesr) where login_id = @user;
+update users set password = sha1(@user) where login_id = @user;
 
 set @user='user1';
-update users set password = sha1(@uesr) where login_id = @user;
+update users set password = sha1(@user) where login_id = @user;
 
 set @user='user2';
-update users set password = sha1(@uesr) where login_id = @user;
+update users set password = sha1(@user) where login_id = @user;
