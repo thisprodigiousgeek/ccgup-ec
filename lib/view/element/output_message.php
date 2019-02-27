@@ -1,3 +1,10 @@
+<?php
+/**
+ * @license CC BY-NC-SA 4.0
+ * @license https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+ * @copyright CodeCamp https://codecamp.jp
+ */
+?>
 <?php if (empty($response['result_msg']) !== TRUE) { ?>
 <div class="row">
 	<div class="col-12 alert alert-success" role="alert">

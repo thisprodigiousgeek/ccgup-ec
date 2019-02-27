@@ -1,5 +1,17 @@
 # ccgup-ec
 
+## ライセンス
+
+このプロジェクトのコンテンツは、個別にライセンスが定義されていない限り **Creative Commons BY-NC-SA 4.0** にて公開されています。  
+[Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
+
+## ライセンスのための表記
+
+```
+このコンテンツはコードキャンプ株式会社により作成され、Creative Commons BY-NC-SA 4.0により公開されています。
+https://codecamp.jp/
+```
+
 ## 環境準備方法
 
 ### git clone
